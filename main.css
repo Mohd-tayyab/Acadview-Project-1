@@ -53,6 +53,7 @@ background-color: rgba(0,0,0,0.87);
 #header .navbar-brand {
     color: white;
 }
+
 #header a {
     color: white;
 }
@@ -104,15 +105,23 @@ body { padding-top: 70px; }
 
 
 }
-.navbar-brand img{
-	width:70px;
-	margin-right:10px;
-	height:100px;
+
+.navbar-brand  .applogo img{
+	width:15px;
+	margin-right:0px;
+	height:15px;
+	margin-left:5px;
 
 }
+
+
+
+
+
+
 .navbar-form .searchbar
 {
-	width:300px !important;
+	width:420px !important;
 
 }
 .navbar-header .navbar-brand{
@@ -130,4 +139,18 @@ body { padding-top: 70px; }
 }
 .comment {
     margin: 0;
+}
+#main .panel .panel-heading
+{
+	/*height:50px;*/
+}
+.list-group .list-group-item
+{
+	border-style:hidden;
+color: #4267b2;
+	background-color:#e7e7e7;
+}
+.list-group .list-group-item .list-group-item-text
+{
+	color: #4267a1;
 }
