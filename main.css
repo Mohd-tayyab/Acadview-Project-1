@@ -106,11 +106,12 @@ body { padding-top: 70px; }
 
 }
 
-.navbar-brand  .applogo img{
-	width:15px;
-	margin-right:0px;
-	height:15px;
-	margin-left:5px;
+.applogo{
+	width:30px;
+	height:30px;
+	margin-top: 10px;
+	margin-left:3px;
+	margin-right: -12px;
 
 }
 
@@ -121,11 +122,12 @@ body { padding-top: 70px; }
 
 .navbar-form .searchbar
 {
-	width:420px !important;
+	width:400px !important;
+
 
 }
 .navbar-header .navbar-brand{
-	margin-left:40px !important;
+
 }
 .navbar-nav{
 	margin-right:10px !important;
@@ -153,4 +155,17 @@ color: #4267b2;
 .list-group .list-group-item .list-group-item-text
 {
 	color: #4267a1;
+}
+.notify-badge
+{
+	background:red;
+	color:white;
+	position:absolute;
+	font-size:15px;
+	text-align:center;
+	border-radius:20px 20px 20px 20px;
+	padding:0px 1px 1px 1px;
+	top:0px;
+	right:0px;
+
 }
