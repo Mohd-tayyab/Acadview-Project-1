@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,6 +12,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="js/carousel.js" rel="stylesheet">
     <link href="main.css" rel="stylesheet">
+    <link href="js/bootstrap.js" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -28,7 +32,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-      <a  href="#"><img  class="applogo" src="download.png" height="25px"  width="25px"></a>
+      <a  href="#"><img  data-toggle="tooltip" data-placement="bottom" title="Friendly applogo" class="applogo" src="download.png" height="25px"  width="25px"></a>
 </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -38,7 +42,7 @@
              <div class="input-group">
                <input type="text" class="form-control searchbar" placeholder="Search Friendly" id="searchbar">
                <span class="input-group-btn">
-                 <button class="btn btn-default" type="button" id="search"><span class="glyphicon glyphicon-search " aria-hidden="true"></span></button>
+                 <button class="btn btn-default" type="button" id="search"><span class="glyphicon glyphicon-search " data-toggle="tooltip" data-placement="bottom" title="Search"aria-hidden="true"></span></button>
                </span>
              </div><!-- /input-group -->
            </div><!-- /.col-lg-6 -->
@@ -47,25 +51,25 @@
         <ul class="nav navbar-nav navbar-right">
           <a href="#"></a>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><img class="img-circle"src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-1/c0.0.160.160/p160x160/13567276_744018659074465_870362678031985445_n.jpg?oh=d307d4eb8da31ae98fb173964ffa271f&oe=59DA17C2" height="30px" width="30px">
+            <li><a href="#"><img data-toggle="tooltip" data-placement="bottom" title="User"class="img-circle"src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-1/c0.0.160.160/p160x160/13567276_744018659074465_870362678031985445_n.jpg?oh=d307d4eb8da31ae98fb173964ffa271f&oe=59DA17C2" height="30px" width="30px">
 <border class="middle">   Tayyab    </border></a></li>
-    <li><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true" style="margin-left:-20px" ></span></></a></li>
-    <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"><span class="badge notify-badge">9</span></span></a></li>
-    <li><a href="#"><span class="glyphicon glyphicon-envelope " aria-hidden="true"><span class="badge notify-badge">4</span></span></a></li>
-    <li><a href="#"><border class="middle"><span class="glyphicon glyphicon-globe" aria-hidden="true" ><span class="badge notify-badge">7</span></span></border></a></li>
-    <li><a href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true" style="margin-left:-20px"></span></a></li>
+    <li><a href="#"><span data-toggle="tooltip" data-placement="bottom" title="Home" class="glyphicon glyphicon-home" aria-hidden="true" style="margin-left:-20px" ></span></></a></li>
+    <li><a href="#"><span data-toggle="tooltip" data-placement="bottom" title="Friend Request" class="glyphicon glyphicon-user" aria-hidden="true"><span class="badge notify-badge">9</span></span></a></li>
+    <li><a href="#"><span data-toggle="tooltip" data-placement="bottom" title="Messages" class="glyphicon glyphicon-envelope " aria-hidden="true"><span class="badge notify-badge">4</span></span></a></li>
+    <li><a href="#"><border class="middle"><span data-toggle="tooltip" data-placement="bottom" title="Notification" class="glyphicon glyphicon-globe" aria-hidden="true" ><span class="badge notify-badge">7</span></span></border></a></li>
+    <li><a href="#"><span data-toggle="tooltip" data-placement="bottom" title="Help" class="glyphicon glyphicon-question-sign" aria-hidden="true" style="margin-left:-20px"></span></a></li>
     <li class="dropdown">
              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
              <ul class="dropdown-menu">
-               <li><a href="#"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>   Create Page</a></li>
-               <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>   Create Groups</a></li>
-               <li><a href="#"><span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span>   New Groups</a></li>
+               <li><a href="#"><span data-toggle="tooltip" data-placement="bottom" title="Pages" class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>   Create Page</a></li>
+               <li><a href="#"><span data-toggle="tooltip" data-placement="bottom" title="Groups"class="glyphicon glyphicon-user" aria-hidden="true"></span>   Create Groups</a></li>
+               <li><a href="#"><span data-toggle="tooltip" data-placement="bottom" title="New Groups"class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span>   New Groups</a></li>
                <li role="separator" class="divider"></li>
-               <li><a href="#"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span>   Create ads</a></li>
-               <li><a href="#"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>   Activity Log</a></li>
+               <li><a href="#"><span data-toggle="tooltip" data-placement="bottom" title="Ads"class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span>   Create ads</a></li>
+               <li><a href="#"><span data-toggle="tooltip" data-placement="bottom" title="Activity log"class="glyphicon glyphicon-pencil" aria-hidden="true"></span>   Activity Log</a></li>
                <li role="separator" class="divider"></li>
-               <li><a href="#"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span>   Settings</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>   Logout</a></li>
+               <li><a href="#"><span data-toggle="tooltip" data-placement="bottom" title="Settings"class="glyphicon glyphicon-cog" aria-hidden="true"></span>   Settings</a></li>
+                <li><a href="#"><span data-toggle="tooltip" data-placement="bottom" title="Log out"class="glyphicon glyphicon-log-out" aria-hidden="true"></span>   Logout</a></li>
              </ul>
            </li>
         </ul>
@@ -116,9 +120,9 @@
            </div>
         <div class="panel-body">
           <div><h3 class="text-post">Searching for a new laptop online is basically forcing your current computer to dig its own grave. </h3></div>
-          <div>  <a href="#"><span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span></a>
-                  <a href="#"><span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span></a>
-                  <a href="#"><span><span class="glyphicon glyphicon-share" aria-hidden="true"></span>Share</span></a>
+          <div>  <a href="#"><span  data-toggle="tooltip" data-placement="bottom" title="Like"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span></a>
+                  <a href="#"><span  data-toggle="tooltip" data-placement="bottom" title="Comment"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span></a>
+                  <a href="#"><span  data-toggle="tooltip" data-placement="bottom" title="Share"><span class="glyphicon glyphicon-share" aria-hidden="true"></span>Share</span></a>
              </div>
                </div>
         <div class="panel-footer">
@@ -221,9 +225,9 @@
      <span class="sr-only">Next</span>
    </a>
  </div>
-         <div>   <a href="#"><span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span></a>
-                 <a href="#"> <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span></a>
-                  <a href="#"><span><span class="glyphicon glyphicon-share" aria-hidden="true"></span>Share</span></a>
+         <div>   <a href="#"><span  data-toggle="tooltip" data-placement="bottom" title="Like"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span></a>
+                 <a href="#"> <span data-toggle="tooltip" data-placement="bottom" title="Comment"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span></a>
+                  <a href="#"><span data-toggle="tooltip" data-placement="bottom" title="Share"><span class="glyphicon glyphicon-share" aria-hidden="true"></span>Share</span></a>
             </div>
               </div>
               <div class="panel-footer">
@@ -292,9 +296,9 @@
          <footer class="myfooter">Walter Scott</footer>
        </blockquote>
      </div>
-         <div>  <a href="#"><span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span></a>
-               <a href="#">  <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span></a>
-                 <a href="#"><span><span class="glyphicon glyphicon-share" aria-hidden="true"></span>Share</span></a>
+         <div>  <a href="#"><span  data-toggle="tooltip" data-placement="bottom" title="Like"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span></a>
+               <a href="#">  <span data-toggle="tooltip" data-placement="bottom" title="Comment"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span></a>
+                 <a href="#"><span data-toggle="tooltip" data-placement="bottom" title="Share"><span class="glyphicon glyphicon-share" aria-hidden="true"></span>Share</span></a>
             </div>
               </div>
               <div class="panel-footer">
@@ -359,9 +363,9 @@
         <div>
          <img src="http://www.folomojo.com/wp-content/uploads/2015/02/16/104.jpg" class="img-responsive" alt="Responsive image">
      </div>
-        <div>   <a href="#"><span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span></a>
-                <a href="#"> <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span></a>
-                 <a href="#"><span><span class="glyphicon glyphicon-share" aria-hidden="true"></span>Share</span></a>
+        <div>   <a href="#"><span  data-toggle="tooltip" data-placement="bottom" title="Like"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span></a>
+                <a href="#"> <span data-toggle="tooltip" data-placement="bottom" title="Comment"><span  class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span></a>
+                 <a href="#"><span data-toggle="tooltip" data-placement="bottom" title="Share"><span  class="glyphicon glyphicon-share" aria-hidden="true"></span>Share</span></a>
            </div>
              </div>
              <div class="panel-footer">
@@ -460,9 +464,9 @@
                   </div>
                 </div>
               </div>
-              <div>   <a href="#"><span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span></a>
-                      <a href="#"> <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span></a>
-                       <a href="#"><span><span class="glyphicon glyphicon-share" aria-hidden="true"></span>Share</span></a>
+              <div>   <a href="#"><span data-toggle="tooltip" data-placement="bottom" title="Like"><span  class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span></a>
+                      <a href="#"> <span data-toggle="tooltip" data-placement="bottom" title="Comment"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span></a>
+                       <a href="#"><span data-toggle="tooltip" data-placement="bottom" title="Share"><span class="glyphicon glyphicon-share" aria-hidden="true"></span>Share</span></a>
                  </div>
                    </div>
                    <div class="panel-footer">
@@ -508,14 +512,6 @@
                      <img class="img-circle" src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-1/c0.0.160.160/p160x160/13567276_744018659074465_870362678031985445_n.jpg?oh=d307d4eb8da31ae98fb173964ffa271f&oe=59DA17C2" height="27px" width="27px">
                            <input placeholder="Write a comment..."  style="width: 92%";margin-top: 15px;"></div>
                   </div>
-
-
-
-
-
-
-
-
      <div class="panel panel-default">
          <div class="panel-heading">
           <h3 class="panel-title"><a href="#">
@@ -529,19 +525,6 @@
                 <p class="comment"> <span><a href="#">Sara Khan </a></span>shared a new<a href="#"> video</a></p>
                 <small><span><time>2 hours</time></span><span>ago</span></small>
               </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
             </div>
           </a></h3></div>
      <div class="panel-body">
@@ -549,9 +532,9 @@
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" width="854" height="480" src="https://www.youtube.com/embed/5hgJOzmXtWw?ecver=1" frameborder="0" allowfullscreen></iframe>
 </div>
-       <div> <a href="#"><span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span></a>
-              <a href="#"><span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span></a>
-              <a href="#"><span><span class="glyphicon glyphicon-share" aria-hidden="true"></span>Share</span></a>
+       <div> <a href="#"><span data-toggle="tooltip" data-placement="bottom" title="Like"><span  class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span></a>
+              <a href="#"><span data-toggle="tooltip" data-placement="bottom" title="comment"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span></a>
+              <a href="#"><span data-toggle="tooltip" data-placement="bottom" title="Share"><span class="glyphicon glyphicon-share" aria-hidden="true"></span>Share</span></a>
           </div>
             </div>
             <div class="panel-footer">
@@ -597,7 +580,7 @@
               <img class="img-circle" src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-1/c0.0.160.160/p160x160/13567276_744018659074465_870362678031985445_n.jpg?oh=d307d4eb8da31ae98fb173964ffa271f&oe=59DA17C2" height="27px" width="27px">
                     <input placeholder="Write a comment..."  style="width: 92%";margin-top: 15px;"></div>
            </div>
-             <button class="btn btn-default" type="button" style="width:100%; background-color:#4267b2">LOAD MORE </button>
+             <button  data-toggle="tooltip" data-placement="bottom" title="Load More" class="btn btn-default" type="button" style="width:100%; background-color:#4267b2">LOAD MORE </button>
        </div>
 
           </div>
@@ -613,27 +596,27 @@
       <div id="sidebar">
             <ul class="nav nav-tabs" role="tablist">
                 <li role="presentation" class="active"><a href="#top" aria-controls="home" role="tab" data-toggle="tab">
-                <span class="glyphicon glyphicon-signal " aria-hidden="true"></span></a></li>
+                <span data-toggle="tooltip" data-placement="bottom" title="Trending"class="glyphicon glyphicon-signal " aria-hidden="true"></span></a></li>
                 <li role="presentation"><a href="#politics" aria-controls="profile" role="tab" data-toggle="tab">
-                <span class="glyphicon glyphicon-king" aria-hidden="true"></span></a></li>
+                <span data-toggle="tooltip" data-placement="bottom" title="Politics"class="glyphicon glyphicon-king" aria-hidden="true"></span></a></li>
                 <li role="presentation"><a href="#international" aria-controls="messages" role="tab" data-toggle="tab">
-                <span class="glyphicon glyphicon-globe " aria-hidden="true"></span></a></li>
+                <span data-toggle="tooltip" data-placement="bottom" title="International"class="glyphicon glyphicon-globe " aria-hidden="true"></span></a></li>
                 <li role="presentation"><a href="#business" aria-controls="messages" role="tab" data-toggle="tab">
-                <span class="glyphicon glyphicon-briefcase " aria-hidden="true"></span></a></li>
+                <span data-toggle="tooltip" data-placement="bottom" title="Business"class="glyphicon glyphicon-briefcase " aria-hidden="true"></span></a></li>
             </ul>
             <!-- Tab panes -->
             <div class="tab-content" id="suggestpanel">
                 <div role="tabpanel" class="tab-pane active" id="top">
                   <div class="list-group">
-                    <a href="#" class="list-group-item active"><span class="  glyphicon glyphicon-flash pull-left" aria-hidden="true"></span>
+                    <a href="http://indianexpress.com/trending/" class="list-group-item active"><span class="  glyphicon glyphicon-flash pull-left" aria-hidden="true"></span>
                       <h4 class="list-group-item-heading">Ind beat Bangladesh in a Crucial Encounter</h4>
                       <p class="list-group-item-text">Ind have beaten Bangladesh in a nail biting semi-final, to enter in champions trophy final</p></span>
                     </a>
-                    <a href="#" class="list-group-item active"><span class="  glyphicon glyphicon-flash pull-left" aria-hidden="true"></span>
+                    <a href="http://indianexpress.com/trending/" class="list-group-item active"><span class="  glyphicon glyphicon-flash pull-left" aria-hidden="true"></span>
                       <h4 class="list-group-item-heading">PM MODI FLAGS OFF KERALA'S FIRST METRO IN KOCHI</h4>
                       <p class="list-group-item-text">PM Modi said that Kochi Metro would be viewed as a model project in urban public transport system with zero carbon emission level.</p>
                        </a>
-                    <a href="#" class="list-group-item active"><span class="  glyphicon glyphicon-flash pull-left" aria-hidden="true"></span>
+                    <a href="http://indianexpress.com/trending/" class="list-group-item active"><span class="  glyphicon glyphicon-flash pull-left" aria-hidden="true"></span>
                       <h4 class="list-group-item-heading">Presidential Election 2017: Sushma Swaraj clears the air, says not in race at all</h4>
                       <p class="list-group-item-text">External Affairs Minister Sushma Swaraj today dismissed reports that she was a contender in the presidential poll as "rumours"</p>
                     </a>
@@ -641,15 +624,15 @@
                   </div>
                 <div role="tabpanel" class="tab-pane" id="business">
                   <div class="list-group">
-                    <a href="#" class="list-group-item active"><span class="  glyphicon glyphicon-flash pull-left" aria-hidden="true"></span>
+                    <a href="http://economictimes.indiatimes.com/" class="list-group-item active"><span class="  glyphicon glyphicon-flash pull-left" aria-hidden="true"></span>
                       <h4 class="list-group-item-heading">Start-up incubation centre for Mangaluru </h4>
                       <p class="list-group-item-text">Facilities would be provided to 60 start-up companies at the centre in the initial phase, the Minister of state </p></span>
                     </a>
-                    <a href="#" class="list-group-item active"><span class="  glyphicon glyphicon-flash pull-left" aria-hidden="true"></span>
+                    <a href="http://economictimes.indiatimes.com/" class="list-group-item active"><span class="  glyphicon glyphicon-flash pull-left" aria-hidden="true"></span>
                       <h4 class="list-group-item-heading">This week in auto: GST brings sky-high discounts, new head for Tata Motors' CV unit</h4>
                       <p class="list-group-item-text">Everything you need to know to bring you up to speed with the world of auto</p>
                        </a>
-                    <a href="#" class="list-group-item active"><span class="  glyphicon glyphicon-flash pull-left" aria-hidden="true"></span>
+                    <a href="http://economictimes.indiatimes.com/" class="list-group-item active"><span class="  glyphicon glyphicon-flash pull-left" aria-hidden="true"></span>
                       <h4 class="list-group-item-heading">Indian Hume Pipe bags Rs 183.46 cr order from TNWSDB</h4>
                       <p class="list-group-item-text">The order is for improvements in water supply distribution in Tiruppur in Tamil Nadu, Indian Hume Pipe said in BSE filing.</p>
                     </a>
@@ -657,15 +640,15 @@
                 </div>
                 <div role="tabpanel" class="tab-pane" id="politics">
                   <div class="list-group">
-                    <a href="#" class="list-group-item active"><span class="  glyphicon glyphicon-flash pull-left" aria-hidden="true"></span>
+                    <a href="http://www.firstpost.com/category/politics" class="list-group-item active"><span class="  glyphicon glyphicon-flash pull-left" aria-hidden="true"></span>
                       <h4 class="list-group-item-heading">Sushma Swaraj dismisses 'rumours' of being a candidate in presidential poll</h4>
                       <p class="list-group-item-text">Sushma termed these speculative reports as mere “rumours” and added that she cannot say anything on BJP’s presidential candidate </p></span>
                     </a>
-                    <a href="#" class="list-group-item active"><span class="  glyphicon glyphicon-flash pull-left" aria-hidden="true"></span>
+                    <a href="http://www.firstpost.com/category/politics" class="list-group-item active"><span class="  glyphicon glyphicon-flash pull-left" aria-hidden="true"></span>
                       <h4 class="list-group-item-heading">Chinese navy warships return home from Karachi Port</h4>
                       <p class="list-group-item-text">Three Chinese naval warships returned home after concluding a four-day 'goodwill visit' to Pakistan.</p>
                        </a>
-                    <a href="#" class="list-group-item active"><span class="  glyphicon glyphicon-flash pull-left" aria-hidden="true"></span>
+                    <a href="http://www.firstpost.com/category/politics" class="list-group-item active"><span class="  glyphicon glyphicon-flash pull-left" aria-hidden="true"></span>
                       <h4 class="list-group-item-heading">PM Modi's Weibo post makes Chinese realise it's their President's birthday today</h4>
                       <p class="list-group-item-text">A post from Prime Minister Narendra Modi on Sina Weibo to make Chinese internet users realise that it was President of China's birthday today.</p>
                     </a>
@@ -673,15 +656,15 @@
                 </div>
                 <div role="tabpanel" class="tab-pane" id="international">
                   <div class="list-group">
-                    <a href="#" class="list-group-item active"><span class="  glyphicon glyphicon-flash pull-left" aria-hidden="true"></span>
+                    <a href="http://timesofindia.indiatimes.com/world" class="list-group-item active"><span class="  glyphicon glyphicon-flash pull-left" aria-hidden="true"></span>
                       <h4 class="list-group-item-heading">UK police arrest knife-wielding man from outside parliament in London</h4>
                       <p class="list-group-item-text">The UK police detained a man in his 30s on suspicion of having a knife in an incident </p></span>
                     </a>
-                    <a href="#" class="list-group-item active"><span class="  glyphicon glyphicon-flash pull-left" aria-hidden="true"></span>
+                    <a href="http://timesofindia.indiatimes.com/world" class="list-group-item active"><span class="  glyphicon glyphicon-flash pull-left" aria-hidden="true"></span>
                       <h4 class="list-group-item-heading">Chinese navy warships return home from Karachi Port</h4>
                       <p class="list-group-item-text">Three Chinese naval warships returned home after concluding a four-day 'goodwill visit' to Pakistan.</p>
                        </a>
-                    <a href="#" class="list-group-item active"><span class="  glyphicon glyphicon-flash pull-left" aria-hidden="true"></span>
+                    <a href="http://timesofindia.indiatimes.com/world" class="list-group-item active"><span class="  glyphicon glyphicon-flash pull-left" aria-hidden="true"></span>
                       <h4 class="list-group-item-heading">PM Modi's Weibo post makes Chinese realise it's their President's birthday today</h4>
                       <p class="list-group-item-text">A post from Prime Minister Narendra Modi on Sina Weibo to make Chinese internet users realise that it was President of China's birthday today.</p>
                     </a>
@@ -717,23 +700,23 @@
         <div class="item active">
         <img class="img-responsive" src="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-1/p480x480/17760243_685449411638560_4511596845041022013_n.jpg?oh=55050c9e1f339f63ccd2a382b2d5a6bd&oe=59E99D1B" alt="Chania">
         <div class="carousel-caption">
-        <a href="#"><h3>Adam's LAND MARK</h3>
-          <p>Apparel and clothing</p></a>
+        <a href="#"><h3><b>Adam's LAND MARK</b></h3>
+          <p><b>Apparel and clothing</b></p></a>
         </div>
         </div>
         <div class="item">
         <img class="img-responsive" src="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-1/p200x200/14680784_1197859540306216_1242670481651317955_n.jpg?oh=ebeef04ae0fb117ae492f147d8316d25&oe=59E6FBA3" alt="Chicago">
         <div class="carousel-caption">
-          <a href="#"><h3>KOSHISH</h3>
-          <p>Community organisation in Dehra Dun, India</p></a>
+          <a href="#"><h3><b>KOSHISH</b></h3>
+          <p><b>Community organisation in Dehra Dun, India</b></p></a>
         </div>
         </div>
         <div class="item">
         <img class="img-responsive" src="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-1/p200x200/18342543_226554854513308_7984961533368537882_n.jpg?oh=79936c94eeea72c9ac7b53a08964c947&oe=59D25678" alt="New York">
         <div class="carousel-caption">
           <a href="#">
-          <h3>UTTAR PRADESH, U.P.</h3>
-          <p>just for fun</p></a>
+          <h3><b>UTTAR PRADESH, U.P.</b></h3>
+          <p><b>just for fun</b></p></a>
         </div>
         </div>
         </div>
@@ -787,6 +770,14 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+
+
+<script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
