@@ -37,18 +37,32 @@ background-color: rgba(0,0,0,0.87);
 #header {
     background-color: #4267b2;
     color: white;
+		height:35px;
+
+
 }
 #wrapper {
   margin-top: 16px;
   margin-bottom: 16px;
 }
 
-#main,
+
 #menu,
 #sidebar {
-  height: 600px;
+  height:600px;
 	background-color: #e9ebee;
 }
+#main
+{
+	height:1000px;
+	background-color: #e9ebee;
+}
+
+
+
+
+
+
 
 #header .navbar-brand {
     color: white;
@@ -108,10 +122,10 @@ body { padding-top: 70px; }
 
 .applogo{
 	width:30px;
-	height:30px;
-	margin-top: 10px;
+	height:28px;
+	margin-top: 13px;
 	margin-left:3px;
-	margin-right: -12px;
+	margin-right: -10px;
 
 }
 
@@ -120,12 +134,7 @@ body { padding-top: 70px; }
 
 
 
-.navbar-form .searchbar
-{
-	width:400px !important;
 
-
-}
 .navbar-header .navbar-brand{
 
 }
@@ -140,7 +149,7 @@ body { padding-top: 70px; }
 	margin-right: 10px;
 }
 .comment {
-    margin: 0;
+    margin: 0px;
 }
 #main .panel .panel-heading
 {
@@ -168,4 +177,27 @@ color: #4267b2;
 	top:0px;
 	right:0px;
 
+}
+.middle
+{
+	width:15px;
+	height:2000px;
+	border-left::1px solid black;
+	border-right:1px solid black;
+	margin:0 auto;
+	padding-right: 10px;
+}
+#searchbar{
+	width:400px;
+	height:28px;
+	margin-top:5px;
+}
+
+#search{
+	height:28px;
+	margin-top:5px;
+}
+#suggestpanel
+{
+	height:100px !important;
 }
