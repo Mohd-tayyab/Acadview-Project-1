@@ -55,7 +55,6 @@ background-color: rgba(0,0,0,0.87);
 #main
 {
 	height:1000px;
-	background-color: #e9ebee;
 }
 #header .navbar-brand {
     color: white;
@@ -200,4 +199,24 @@ color: #4267b2;
 	width:inherit;
 }
 
+}
+.post-options {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+.reply-list {
+    margin-left: 32px;
+    margin-top: 5px;
+    padding-left: 10px;
+		border-left: 2px none rgb(229, 229, 229);
+	}
+	.media-list {
+    padding-left: 0px;
+    list-style: none;
+	}
+	.reply-list .comment-reply {
+    margin-top: 0px;
+    margin-bottom: 5px;
 }
